@@ -17,7 +17,7 @@ function createTransaction(sourceId, destinationId, amount) {
         sourceId,
         destinationId,
         amount,
-        timestamp : new Date().toString()
+        timestamp : new Date().toISOString()
     }
 
     transactions.push(transaction)
