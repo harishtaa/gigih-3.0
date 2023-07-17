@@ -1,6 +1,5 @@
 const { addSong } = require('../models/songModel')
-const { getAllSongs } = require('../models/songModel');
-const { getSong } = require('../models/songModel')
+const { getAllSongs } = require('../models/songModel')
 const { playSong, mostPlayed } = require('../services/songService');
 
 const express = require('express')
