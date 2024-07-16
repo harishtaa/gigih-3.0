@@ -6,7 +6,7 @@ const user =
     }
 const fullName = `${user.name.split(" ")[0]} "${user.middleName}" ${user.name.replace(user.name.split(" ")[0],"")}`
 
-const Avatar = () => {
+const Avatar = (props) => {
     return(
         <div>
             <img src = {user.image} className = "avatar"></img>

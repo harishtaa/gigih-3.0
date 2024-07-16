@@ -1,0 +1,28 @@
+.App{
+    padding: 20px;
+}
+
+.header{
+    display: block;
+}
+.songCard{
+    float: left;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    background-color: #dfdfdfff;
+    padding: 5px;
+
+}
+.thumbnail{
+    width: 150px;
+    height: 150px; 
+    object-fit: cover;
+    overflow:hidden;
+    display: flex;
+}
+.title{
+    display:contents;
+    text-align:center;
+}
+
